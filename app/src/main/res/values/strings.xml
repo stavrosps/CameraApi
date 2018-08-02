@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MlkitApp</string>
+    <string name="txt_message">txt_message</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="action_process">Process</string>
+    <string name="storage_access_required">Storage access is required to enable selection of images</string>
+    <string name="ok">OK</string>
+    <string name="select_image">Select an image for processing</string>
+</resources>
