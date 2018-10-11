@@ -18,10 +18,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         reco = (Button)findViewById(R.id.reco);
-        map = (Button)findViewById(R.id.map);
-        barco = (Button)findViewById(R.id.barco);
-        landm = (Button)findViewById(R.id.landm);
-        facere = (Button)findViewById(R.id.facere);
+
+
         reco.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -31,28 +29,8 @@ public class MainActivity extends AppCompatActivity {
 
 
         });
-        map.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent iLabel = new Intent(getApplicationContext(),MapsActivity.class);
-                startActivity(iLabel);
-            }
-        });
 
-        landm.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent landm = new Intent(getApplicationContext(),LandmarkActivity.class);
-                startActivity(landm);
-            }
-        });
-        facere.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent facere = new Intent(getApplicationContext(),LandmarkActivity.class);
-                startActivity(facere);
-            }
-        });
+
 
     }
 }

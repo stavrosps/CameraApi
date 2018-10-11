@@ -86,7 +86,7 @@ public class RecActivity extends AppCompatActivity {
 
                 @Override
                 public void surfaceDestroyed(SurfaceHolder surfaceHolder) {
-                    cameraSource.stop();
+//                    cameraSource.stop();
 
                 }
             });

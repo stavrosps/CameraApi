@@ -33,9 +33,7 @@
             android:value="label,barcode" />
 
         <activity android:name=".RecActivity" />
-        <activity android:name=".LabelActivity" />
         <activity android:name=".BarcodeActivity" />
-        <activity android:name=".LandmarkActivity" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
@@ -48,9 +46,6 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
 
-        <activity
-            android:name=".MapsActivity"
-            android:label="@string/title_activity_maps" />
         <activity android:name=".BarcodeActivity" />
         <activity android:name=".LandmarkActivity" />
         <activity android:name=".FaceActivity"></activity>
